@@ -1,0 +1,28 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#0a0a0a;color:#fff;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+body{display:flex;flex-direction:column;min-height:100vh}
+.page{flex:1;width:100%;max-width:640px;margin:0 auto;padding:32px 20px 16px}
+h1{font-size:30px;line-height:1.2;margin:0 0 8px;text-align:center}
+h2{font-size:20px;line-height:1.3;color:#e8c15a;margin:28px 0 12px}
+.gold{color:#e8c15a}
+.cyan{color:#38d6ff}
+.sub{font-size:18px;text-align:center;color:#ccc;margin:0 0 8px}
+.date{font-size:14px;text-align:center;color:#999;margin:0 0 20px}
+p{font-size:17px;line-height:1.55}
+ul.points{list-style:none;margin:0;padding:0}
+ul.points li{font-size:17px;line-height:1.5;padding:12px 14px;margin:0 0 10px;border:1px solid #333;border-radius:8px;background:#111}
+.source{font-size:14px;line-height:1.5;color:#999;border-top:1px solid #333;padding-top:12px}
+.adbox{margin:24px 0;padding:20px 16px;border:2px dashed #e8c15a;border-radius:10px;background:#111;text-align:center;font-size:16px;color:#e8c15a}
+.links{list-style:none;margin:0;padding:0}
+.links li{margin:0 0 8px}
+.links a{color:#38d6ff;font-size:17px}
+.contact{margin:28px 0 0;padding:20px 16px;border:1px solid #e8c15a;border-radius:10px;background:#111;text-align:center}
+.contact h2{margin-top:0;text-align:center}
+.btn{display:block;width:100%;padding:14px 16px;margin:0 0 12px;border-radius:8px;font-size:18px;font-weight:700;text-decoration:none;text-align:center}
+.btn.call{background:#e8c15a;color:#111}
+.btn.mail{background:#38d6ff;color:#111}
+.contact-line{font-size:16px;line-height:1.5;margin:8px 0;word-break:break-word}
+.contact-line a{color:#38d6ff}
+footer{width:100%;max-width:640px;margin:0 auto;padding:16px 20px 32px;text-align:center;color:#999;font-size:13px;line-height:1.5}
+footer p{margin:4px 0}
+@media(max-width:420px){.page{padding:24px 16px 12px}h1{font-size:26px}.btn{font-size:17px}}
